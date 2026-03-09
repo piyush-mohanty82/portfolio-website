@@ -24,7 +24,7 @@ const Navbar = () => {
               <a
                 href={link.href}
                 onClick={() => setActive(link.label)}
-                className={`text-sm font-medium transition-colors duration-200 ${active === link.label ? "text-orange-500" : "text-gray-300 hover:text-orange-400"}`} 
+                className={`text-lg font-medium transition-colors duration-200 ${active === link.label ? "text-orange-500" : "text-gray-300 hover:text-orange-400"}`} 
               >
                 {link.label}
               </a>
