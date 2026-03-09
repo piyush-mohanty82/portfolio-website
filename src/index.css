@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+@theme {
+    --font-family-k2d: "K2D", sans-serif;
+    --color-brand-start: #FA6E00;
+    --color-brand-end: #E60026;
+  }
