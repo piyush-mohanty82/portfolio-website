@@ -41,7 +41,7 @@ const Hero = () => {
                   href={s.href}
                   className='w-11 h-11 rounded-full border border-zinc-600 flex items-center justify-center text-white  hover:border-orange-500 hover:text-orange-500 transition-all duration-200'
                 >
-
+                  {s.icon}
                 </a>
               ))}
             </div>
