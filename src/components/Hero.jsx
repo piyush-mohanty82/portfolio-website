@@ -45,6 +45,22 @@ const Hero = () => {
                 </a>
               ))}
             </div>
+            {/* Buttons */}
+            <div>
+              <a
+                href='#contact'
+                className='bg-orange-500 hover:bg-orange-400 text-white font-semibold px-8 py-3 rounded-md transition-colors duration-200'
+              >
+                Contact
+              </a>
+              <a 
+                href="/https://drive.google.com/file/d/1BIA7RTO6nvuli-C4V5HrHqBpwgTYSiSB/view?usp=drivesdk"
+                className='border border-zinc-500 hover:border-orange-500 text-gray-300 hover:text-orange-500 font-semibold px-8 py-3 rounded-md transition-all duration-200 ml-3'
+              >
+                Download CV
+              </a>
+            </div>
+
           </div>
         </div>
         
